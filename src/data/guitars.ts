@@ -6,7 +6,8 @@ export const guitars = [
     img: "https://cdn.mos.cms.futurecdn.net/9exiaJq5Sii684VPiEcwB8-1920-80.jpg",
     sold: false,
     gallery: [
-      "https://cdn.mos.cms.futurecdn.net/nVwc9AeKGYKWMRh7PJWRRk-650-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/9exiaJq5Sii684VPiEcwB8-1920-80.jpg",
+	  "https://cdn.mos.cms.futurecdn.net/nVwc9AeKGYKWMRh7PJWRRk-650-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/fD9zrHMTVmzBzp8DjSdiFP-970-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/3b6c9aaERfMPgsvpfCJjmM-970-80.jpg",
       "https://cdn.mos.cms.futurecdn.net/N43ypXRcZfzzPcxvG88Hf9-800-80.jpg",
