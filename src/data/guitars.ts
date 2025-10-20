@@ -6,16 +6,17 @@ export const guitars = [
     img: "https://cdn.mos.cms.futurecdn.net/9exiaJq5Sii684VPiEcwB8-1920-80.jpg",
     sold: false,
     gallery: [
-      "https://cdn.mos.cms.futurecdn.net/9exiaJq5Sii684VPiEcwB8-1920-80.jpg",
-      "https://cdn.mos.cms.futurecdn.net/QaXv4Lf3DqWZ7q9Vns9KX8.jpg",
-      "https://www.pmtonline.co.uk/blog/wp-content/uploads/2018/05/fender-stratocaster-closeup.jpg",
-      "https://images.ctfassets.net/5bcqzgi3z2wz/5v9hQK1DFezDODbtXxY3uv/ea395c74a31dc3f7262b59fefc6893d3/stratocaster-body.jpg",
-      "https://www.musicradar.com/reviews/fender-american-professional-stratocaster",
-      "https://cdn11.bigcommerce.com/s-1pxn4w/images/stencil/original/products/1340/4131/Fender_Stratocaster_Vintage-White__80422.1595941742.jpg",
-    ],
+      "https://cdn.mos.cms.futurecdn.net/nVwc9AeKGYKWMRh7PJWRRk-650-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/fD9zrHMTVmzBzp8DjSdiFP-970-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/3b6c9aaERfMPgsvpfCJjmM-970-80.jpg",
+      "https://cdn.mos.cms.futurecdn.net/N43ypXRcZfzzPcxvG88Hf9-800-80.jpg",
+     ],
     description:
       "The Fender Stratocaster is a bright, versatile, and iconic electric guitar featuring three single-coil pickups and a contoured body for comfort.",
   },
+  
+  
+  
   {
     id: "lespaul",
     name: "Gibson Les Paul",
