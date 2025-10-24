@@ -14,7 +14,7 @@ export default function Home() {
           Fuzzy Logic Guitars
         </h1>
         <p className="text-gray-300 mt-2 text-lg">
-          Electric tone for the bold and fearless
+          Tone for the bold and fearless
         </p>
       </div>
 

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Fender Stratocaster",
+    "price": "$1,199",
+    "type": "Electric",
+    "image": "images/electric1.jpg"
+  },
+  {
+    "name": "Gibson Les Paul Standard",
+    "price": "$2,499",
+    "type": "Electric",
+    "image": "images/electric2.jpg"
+  },
+  {
+    "name": "Martin D-28",
+    "price": "$3,000",
+    "type": "Acoustic",
+    "image": "images/acoustic1.jpg"
+  },
+  {
+    "name": "Ibanez SR500E",
+    "price": "$899",
+    "type": "Bass",
+    "image": "images/bass1.jpg"
+  }
+]
