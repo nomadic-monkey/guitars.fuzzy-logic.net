@@ -7,6 +7,11 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+
+        {/* Preferred, descriptive guitar URL */}
+        <Route path="/guitars/:slug" element={<GuitarDetail />} />
+
+        {/* Legacy route retained temporarily so old links do not break */}
         <Route path="/guitar/:id" element={<GuitarDetail />} />
       </Routes>
     </BrowserRouter>
