@@ -19,6 +19,8 @@ const statusStyles = {
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white">
+
+      {/* Brand header */}
       <div className="flex flex-col items-center justify-center py-10 sm:py-12 text-center px-5 sm:px-6">
         <img
           src="/FuzzyMonkeyRound_r2.png"
@@ -26,12 +28,14 @@ export default function Home() {
           className="w-32 h-32 mb-5 sm:mb-6 rounded-full border-4 border-yellow-400 shadow-lg"
         />
 
-        <h1 className="text-5xl sm:text-6xl font-extrabold text-yellow-400 drop-shadow-lg tracking-wide leading-tight">
-          Fuzzy Logic Guitars
-        </h1>
+        <img
+          src="/branding/fuzzy-logic-guitars.svg"
+          alt="Fuzzy Logic Guitars"
+          className="w-full max-w-3xl h-auto"
+        />
 
         <p className="text-gray-300 mt-3 text-lg sm:text-xl font-medium tracking-wide">
-          Tone & Attitude. Make some noise
+          Tone &amp; Attitude
         </p>
 
         <Link
@@ -42,6 +46,7 @@ export default function Home() {
         </Link>
       </div>
 
+      {/* Guitar catalogue */}
       <main
         id="guitars"
         className="max-w-6xl mx-auto py-6 sm:py-8 px-4 sm:px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8"
