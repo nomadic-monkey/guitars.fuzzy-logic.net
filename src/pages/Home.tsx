@@ -19,8 +19,6 @@ const statusStyles = {
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white">
-
-      {/* Brand header - desktop presentation retained, mobile spacing tightened slightly */}
       <div className="flex flex-col items-center justify-center py-10 sm:py-12 text-center px-5 sm:px-6">
         <img
           src="/FuzzyMonkeyRound_r2.png"
@@ -33,11 +31,17 @@ export default function Home() {
         </h1>
 
         <p className="text-gray-300 mt-3 text-lg sm:text-xl font-medium tracking-wide">
-          Tone for the bold and fearless
+          Tone & Attitude. Make some noise
         </p>
+
+        <Link
+          to="/about"
+          className="mt-5 inline-flex items-center justify-center text-sm sm:text-base font-semibold uppercase tracking-[0.12em] text-gray-400 hover:text-yellow-400 transition-colors"
+        >
+          About us
+        </Link>
       </div>
 
-      {/* Guitar catalogue */}
       <main
         id="guitars"
         className="max-w-6xl mx-auto py-6 sm:py-8 px-4 sm:px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8"
@@ -52,7 +56,7 @@ export default function Home() {
               <img
                 src={guitar.img}
                 alt={guitar.name}
-                className={`w-full h-64 sm:h-64 object-cover transition-opacity duration-200 ${
+                className={`w-full h-64 object-cover transition-opacity duration-200 ${
                   guitar.status === "sold" ? "opacity-75" : ""
                 }`}
               />

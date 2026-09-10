@@ -4,9 +4,9 @@ export const guitars: Guitar[] = [
   {
     id: "strat",
     slug: "fender-stratocaster",
-    name: "Fender Stratocaster",
-    subtitle: "Classic solid-body electric guitar",
-    price: { amount: 1299, currency: "USD" },
+    name: "1964 Fender Stratocaster",
+    subtitle: "Classic 60's solid-body electric guitar",
+    price: { amount: 8700, currency: "GBP" },
     status: "available",
     img: "https://cdn.mos.cms.futurecdn.net/9exiaJq5Sii684VPiEcwB8-1920-80.jpg",
     gallery: [
@@ -17,7 +17,7 @@ export const guitars: Guitar[] = [
       "https://cdn.mos.cms.futurecdn.net/N43ypXRcZfzzPcxvG88Hf9-800-80.jpg",
     ],
     overview:
-      "A versatile Stratocaster-style electric with the familiar contoured body, three single-coil pickup layout and broad tonal range. Dummy content for layout review.",
+      "A versatile 2012 custom shop Stratocaster in Pelham Blue with the light aged murphy lab treatment, contoured body, three PAF single-coil pickup and broad tonal range.",
     specification: [
       { label: "Maker", value: "Fender" },
       { label: "Model", value: "Stratocaster" },
@@ -166,7 +166,39 @@ export const guitars: Guitar[] = [
     playingCondition:
       "Dummy playing-condition text: stable setup with working tremolo and electronics. Final string height and fret measurements to be added later.",
   },
-  {
+    {
+    id: "toptwenty",
+    slug: "toptwenty",
+    name: "1970 Teisco Top Twenty",
+    subtitle: "Classic 1970's Japanese import",
+    price: { amount: 175, currency: "GBP" },
+    status: "available",
+    img: "/images/guitars/teisco-top-twenty/ttt1.png",
+    gallery: [
+      "/images/guitars/teisco-top-twenty/ttt1.png",
+      "/images/guitars/teisco-top-twenty/ttt2.png",
+      "/images/guitars/teisco-top-twenty/ttt3.png",
+      "/images/guitars/teisco-top-twenty/ttt4.png",
+      "/images/guitars/teisco-top-twenty/ttt5.png",
+    ],
+    overview:
+      "A Jazzmaster-style offset electric with the familiar wide single-coil pickup format and floating tremolo system. Dummy content for layout review.",
+    specification: [
+      { label: "Maker", value: "Teisco" },
+      { label: "Model", value: "Top Twenty" },
+      { label: "Type", value: "Offset solid-body electric guitar" },
+      { label: "Body", value: "Alder" },
+      { label: "Neck", value: "Maple" },
+      { label: "Pickups", value: "2 × single-coil" },
+      { label: "Controls", value: "Lead and rhythm circuits" },
+      { label: "Bridge", value: "Floating tremolo" },
+    ],
+    condition:
+      "Dummy condition text: very presentable used condition with light age-related handling marks.",
+    playingCondition:
+      "Dummy playing-condition text: stable setup with working tremolo and electronics. Final string height and fret measurements to be added later.",
+  },
+    {
     id: "flyingv",
     slug: "flying-v",
     name: "Flying V",

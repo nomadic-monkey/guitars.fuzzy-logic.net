@@ -82,18 +82,7 @@ export default function GuitarDetail() {
             Back to guitars
           </Link>
         </div>
-
-        {/* Logo remains unchanged */}
-        <div className="flex justify-center mb-8 sm:mb-10">
-          <Link to="/" className="inline-block">
-            <img
-              src="/FuzzyMonkeyRound_r2.png"
-              alt="Fuzzy Logic Guitars Logo"
-              className="w-32 h-32 rounded-full border-4 border-yellow-400 shadow-lg hover:scale-105 transition-transform"
-            />
-          </Link>
-        </div>
-
+                
         <header className="text-center mb-7 sm:mb-8">
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tight mb-3">
             {guitar.name}
